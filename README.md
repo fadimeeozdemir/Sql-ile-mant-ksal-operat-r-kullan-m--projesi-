@@ -21,4 +21,4 @@ where rental_rate = 0.99 and replacement_cost = 12.99 or replacement_cost = 28.9
 where first_name ='Mary'
 
 5)select * from film;
-where not (rental_rate = 0.99 OR  rental_rate = 2.99  OR length < 50)
+where NOT (length > 50 OR rental_rate = 2.99 OR rental_rate = 4.99 )
